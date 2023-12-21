@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @RestController
 @RequestMapping("/ManagerController")
-public class ManagerController {
+public class ManagerController {//管理员接口
     @Autowired
     ManagerService managerService;
     //登录
